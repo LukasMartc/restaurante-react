@@ -1,6 +1,11 @@
+import Header from "../components/Header";
+import { Fragment } from 'react';
+
 const Inicio = () => {
   return (
-    <div>Inicio</div>
+    <Fragment>
+      <Header />
+    </Fragment>
   )
 }
 
