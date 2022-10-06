@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import Coffee from "./Coffee"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons"
+import Espresso from '../images/coffee-item1.png'
+import Capuchino from '../images/coffee-item2.png'
+import PourOver from '../images/coffee-item3.png'
 
 const LittleMenu = () => {
   return (
@@ -12,9 +15,9 @@ const LittleMenu = () => {
           <p className="paragraph-littlemenu">Café Recontre es un lugar agradable en donde podrá disfrutar el mejor Café.</p>
         </div>
         <div className="types-coffee">
-          <Coffee />
-          <Coffee />
-          <Coffee />
+          <Coffee title="Expreso" img={Espresso}/>
+          <Coffee title="Capuchino" img={Capuchino}/>
+          <Coffee title="Pour Over" img={PourOver}/>
         </div>
         <div className="container-fullmenu">
           <Link className="btn-fullmenu" to="/menu">

@@ -245,6 +245,10 @@ h1 {
     margin: 15px 30px;
 }
 
+.images-type {
+    display: flex;
+}
+
 .container-title-type {
     display: flex;
     justify-content: center;

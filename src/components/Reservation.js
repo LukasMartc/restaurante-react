@@ -63,7 +63,7 @@ const Reservation = () => {
               <option defaultValue="9:00">9:00 PM</option>
             </select>
           </div>
-          <div className="container-fullmenu">
+          <div className="container-fullmenu" type="submit">
             <div className="btn-fullmenu" to="/menu">
               Reservar
               <span className="arrow-fullmenu">

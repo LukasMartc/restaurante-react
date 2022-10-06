@@ -1,13 +1,11 @@
-import TypeCoffee from '../images/coffee-item1.png'
-
-const Coffee = () => {
+const Coffee = ({title, img}) => {
   return (
     <div className='container-type'>
       <div>
-        <img src={TypeCoffee} alt="Cafe Expresso"/>
+        <img src={img} alt="Cafe Expresso"/>
       </div>
       <div className='container-title-type'>
-        <h4 className='title-type'>EXPRESSO</h4>
+        <h4 className='title-type'>{title}</h4>
         <div>
           <p className='paragraph-type'>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.          
