@@ -91,6 +91,12 @@ h1 {
     align-items: center;
 }
 
+.container-slideshow {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .container-featured {
     display: flex;
     justify-content: center;
@@ -136,6 +142,16 @@ h1 {
 
 .next-image {
     cursor: pointer;
+    margin: 0 20px;
+}
+
+.slide {
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
 }
 
 .container-read-blog {
