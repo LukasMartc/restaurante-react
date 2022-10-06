@@ -4,18 +4,18 @@ import LogoCafeteria from "../images/logo.png"
 const Navbar = () => {
   return (
       <div className="container-navbar">
-        <nav>
+        <nav className="navbar">
           <NavLink className="nav-link" to="/">Inicio</NavLink>
-          <NavLink className="nav-link" to="/nosotros">Nosotros</NavLink>
+          <NavLink className="nav-link">Nosotros</NavLink>
+          <NavLink className="nav-link">Blog</NavLink>
         </nav>
         <div>
-          <NavLink to="/">
             <img className="logo" src={LogoCafeteria} alt="Cafe Recontre"/>
-          </NavLink>
         </div>
-        <nav>
-          <NavLink className="nav-link" to="/blog">Blog</NavLink>
-          <NavLink className="nav-link" to="/menu">Menú</NavLink>
+        <nav className="navbar">
+          <NavLink className="nav-link">Menú</NavLink>
+          <NavLink className="nav-link">Tienda</NavLink>
+          <NavLink className="nav-link" to="/reservas">Reservas</NavLink>
         </nav>
       </div>
   )
