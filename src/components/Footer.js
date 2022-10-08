@@ -8,6 +8,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import LogoCafeteria from "../images/logo.png"
+import React from 'react'
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
 			<div className="footer-left">
 				<img className="logo-footer" src={LogoCafeteria} alt="Café Rencontre"/>
 				<p className="footer-links">
-					<Link to="/" class="nav-footer link-1">Inicio</Link>
+					<Link to="/" className="nav-footer link-1">Inicio</Link>
 					<Link className="nav-footer">Nosotros</Link>
 					<Link className="nav-footer">Blog</Link>
 					<Link className="nav-footer">Menú</Link>

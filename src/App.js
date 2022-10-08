@@ -4,7 +4,7 @@ import Inicio from './views/Inicio';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
-
+import React from 'react'
 
 function App() {
   return (

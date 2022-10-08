@@ -546,3 +546,146 @@ select {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+
+.alerta.error {
+    background-color: var(--blanco);
+    border-left: 5px solid #b91c1c;
+    color: #b91c1c;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.modal {
+    position: fixed;
+    background-color: rgb(0 0 0 / 0.92);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal .close-modal {
+    position: fixed;
+    right: 3rem;
+    top: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.modal .close-modal img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.modal .form-modal {
+    max-width: 80rem;
+    width: 40rem;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+    opacity: 0;
+}
+
+.modal .form-modal.animate {
+    position: relative;
+    opacity: 1;
+}
+
+.modal .form-modal.close {
+    opacity: 0;
+}
+
+.form-modal {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-modal legend {
+    font-size: 3.6rem;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid saddlebrown
+}
+
+.form-modal .field {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-modal label {
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.form-modal input[type="email"],
+.form-modal input[type="text"],
+.form-modal textarea[type="text"],
+.form-modal input[type="number"] {
+    background-color: rgb(201, 200, 200);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    flex: 1;
+    font-size: 1.6rem;
+}
+
+.form-modal input[type="submit"] {
+    background-color: saddlebrown;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    width: 100%;
+    transition: background-color 300ms ease;
+}
+
+.form-modal input[type="submit"]:hover {
+    background-color: rgb(96, 47, 12);
+    cursor: pointer;
+}
+
+.form-modal select {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(201, 200, 200);
+}
+
+.alerta {
+    padding: 2rem 5rem;
+    max-width: 60rem;
+    margin: 2rem auto 2rem auto;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.alerta.error {
+    background-color: var(--blanco);
+    border-left: 5px solid #b91c1c;
+    color: #b91c1c;
+}
+

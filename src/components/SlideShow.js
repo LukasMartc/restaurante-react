@@ -2,6 +2,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
+import React from 'react'
 
 const SlideShow = ({images}) => {
     const [currentImage, setCurrentImage] = useState(0);

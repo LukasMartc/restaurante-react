@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import LogoCafeteria from "../images/logo.png"
+import React from 'react'
 
 const Navbar = () => {
   return (

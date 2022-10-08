@@ -5,6 +5,7 @@ import PictureCoffe2 from '../images/articulo-cafe2.jpg'
 import PictureCoffe3 from '../images/articulo-cafe3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import React from 'react'
 
 const ArticleBlog = () => {
 const images = [PictureCoffe1, PictureCoffe2, PictureCoffe3];

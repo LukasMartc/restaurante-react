@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Coffee = ({title, img}) => {
   return (
     <div className='container-type'>

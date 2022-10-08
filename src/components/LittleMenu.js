@@ -5,6 +5,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import Espresso from '../images/coffee-item1.png'
 import Capuchino from '../images/coffee-item2.png'
 import PourOver from '../images/coffee-item3.png'
+import React from 'react'
 
 const LittleMenu = () => {
   return (
